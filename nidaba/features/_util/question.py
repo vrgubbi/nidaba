@@ -21,7 +21,17 @@ def is_weekend(t):
     """
     return get_weekday(t) in (5, 6)
 
-
+def check_question_mark(s):
+    """
+    Returns True if the question mark is present.
+    :param s: String
+    :return: True if question mark is present else False.
+    """
+    if "?" in s:
+        return True
+    else:
+        return False
+        
 def capitalised_string(s):
     """
     Check whether the first letter of a title is uppercase
